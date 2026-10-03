@@ -1,0 +1,41 @@
+<div align="center">
+
+<img src="images/logo.png" alt="Youtube Studio by Thanun" width="108">
+
+# Youtube Studio
+
+### By Thanun
+
+**Find it · Choose it · Keep it**
+
+A colorful Windows app for saving public YouTube videos and audio, managing downloads, and playing files locally.
+
+</div>
+
+![The Home screen of the packaged Windows app](images/home.png)
+
+## A simpler way to keep public media
+
+**Search or paste.** Find a public video or channel by name, or paste a video, Short, playlist, or channel link. Preview media and choose from the formats actually offered.
+
+**Pick a few or a whole collection.** Select videos from a playlist or channel, choose video quality or audio, and add the batch in one action.
+
+**See what is happening.** Downloads shows active work, measured progress, pause and retry actions, and recovery after a restart. Library plays verified files and keeps saved versions together.
+
+**Make it yours.** Convert selected Library files or your own local media in a batch. Originals stay in place.
+
+<p align="center"><img src="images/convert.png" alt="Convert page in the packaged Windows app" width="760"></p>
+
+## Download status
+
+The Windows installer and portable package are **not published yet**. The app has passed local build, packaged playback, and isolated install/uninstall checks. Public distribution is waiting for review of the bundled FFmpeg runtime's source/build materials and physical failure testing. This page will link to a GitHub Release when those checks are complete.
+
+The Windows executables will be **unsigned**, by the owner's decision. Windows may show an unknown-publisher warning. The app supports public content only; it does not request YouTube login or cookies. Source availability, offered qualities, and captions can change.
+
+## Updates
+
+Installed builds are configured to check this repository's stable HTTPS feed. A future update is downloaded only after its release metadata signature and installer SHA-256 match. Applying an update still asks you to open the verified installer. Portable builds are replaced manually. No update is offered before a newer reviewed release and a signed `updates/stable.json` are published.
+
+<p align="center"><img src="images/about.png" alt="About page in the packaged Windows app" width="760"></p>
+
+<div align="center"><sub>Youtube Studio · By Thanun · Windows x64</sub></div>
