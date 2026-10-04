@@ -26,11 +26,11 @@ A colorful Windows app for saving public YouTube videos and audio, managing down
 
 <p align="center"><img src="images/convert.png" alt="Convert page in the packaged Windows app" width="760"></p>
 
-## Download status
+## V1 · Official Build
 
-The Windows installer and portable package are **not published yet**. The app has passed local build, packaged playback, and isolated install/uninstall checks. Public distribution is waiting for review of the bundled FFmpeg runtime's source/build materials and physical failure testing. This page will link to a GitHub Release when those checks are complete.
+[Download V1 for Windows x64](https://github.com/Thanun-Coding/Youtube-Studio---Release/releases/tag/v1.0.0): choose **Setup** for installation or **Portable** to run without installation. Package version: **1.0.0**. See [V1 release notes](RELEASE_NOTES_V1.md) for the latest improvements, verification and remaining limits. SHA-256 checksums and Runtime Source Information accompany the downloads.
 
-The Windows executables will be **unsigned**, by the owner's decision. Windows may show an unknown-publisher warning. The app supports public content only; it does not request YouTube login or cookies. Source availability, offered qualities, and captions can change.
+The Windows executables are **unsigned**, by the owner's decision. Windows may show an unknown-publisher warning. The app supports public content only; it does not request YouTube login or cookies. Source availability, offered qualities, and captions can change. Complete linked-dependency source/reproducibility review and physical failure testing remain incomplete; the supplied source-information archive does not certify those checks.
 
 ## Updates
 
