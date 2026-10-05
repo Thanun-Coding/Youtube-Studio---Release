@@ -5,10 +5,10 @@
     "channel": "stable",
     "platform": "win32-x64",
     "packageType": "nsis",
-    "version": "1.0.0",
-    "size": 199188198,
-    "sha256": "ffd1b4a3e4795f5d5f92db51433a5997323058acf240d05d2aa7e94228137748",
-    "url": "https://github.com/Thanun-Coding/Youtube-Studio---Release/releases/download/v1.0.0/Youtube-Studio-Thanun-Setup-1.0.0-x64.exe"
+    "version": "1.1.0",
+    "size": 199197966,
+    "sha256": "ba2d93139b195a9b0f85834b139ba3b532d00e12c1230e234c675c17134b1d10",
+    "url": "https://github.com/Thanun-Coding/Youtube-Studio---Release/releases/download/v1.1.0/Youtube-Studio-Thanun-Setup-1.1.0-x64.exe"
   },
-  "signature": "BvQp895gCzVSTLNyv4zFllI6F9mJ98cYsQY4tfEhtZH82dl2/ouV3TxMikWyuEp94xyJXVgg3Wl8AxQwtnz4AQ=="
+  "signature": "tat8lAnmdx1TAIop920wW8UoDvsj9L28HB/HWoKXv2goaOOEiLzLoSFLw48TqbY/1dqSPEdSTLpU4paXcz2YDA=="
 }
