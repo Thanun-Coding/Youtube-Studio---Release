@@ -5,10 +5,21 @@
     "channel": "stable",
     "platform": "win32-x64",
     "packageType": "nsis",
-    "version": "1.1.0",
-    "size": 199197966,
-    "sha256": "ba2d93139b195a9b0f85834b139ba3b532d00e12c1230e234c675c17134b1d10",
-    "url": "https://github.com/Thanun-Coding/Youtube-Studio---Release/releases/download/v1.1.0/Youtube-Studio-Thanun-Setup-1.1.0-x64.exe"
+    "version": "1.0.0",
+    "size": 199202211,
+    "sha256": "0454cd81ba3445030d243bd2f48e687ae81287652bfb4f42b1b573fb3a42649d",
+    "url": "https://github.com/Thanun-Coding/Youtube-Studio---Release/releases/download/v1.0.0/Youtube-Studio-Thanun-Setup-1.0.0-x64.exe",
+    "title": "V1 · Official Build",
+    "summary": "The refreshed official build with the new automatic-update popup.",
+    "releaseDate": "2026-10-06",
+    "releaseNotes": [
+      "A Settings-style update popup with verified release details and actual release notes.",
+      "Live download progress, measured speed and estimated time remaining.",
+      "Closing the popup preserves the download; Settings stays synchronized.",
+      "Explicit cancellation, retry and guarded installer opening.",
+      "Responsive layout, keyboard focus, reduced motion and fullscreen-safe automatic offers.",
+      "Existing background downloads, Library, playback and conversion features retained."
+    ]
   },
-  "signature": "tat8lAnmdx1TAIop920wW8UoDvsj9L28HB/HWoKXv2goaOOEiLzLoSFLw48TqbY/1dqSPEdSTLpU4paXcz2YDA=="
+  "signature": "dMrANyHshZ93IjFPQ9kUzEnDdlKSYmWJiV9AOzstSHLZTyvhRY5Nw0e0NC/JOUCHwteJ7SucVUwKhW2ZQdn/AQ=="
 }

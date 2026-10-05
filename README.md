@@ -28,13 +28,15 @@ A colorful Windows app for saving public YouTube videos and audio, managing down
 
 ## V1 · Official Build
 
-[Download 1.1.0 for Windows x64](https://github.com/Thanun-Coding/Youtube-Studio---Release/releases/tag/v1.1.0): choose **Setup** for installation or **Portable** to run without installation. Package version: **1.1.0**. See [1.1.0 release notes](RELEASE_NOTES_1.1.0.md) for the latest improvements, verification and remaining limits. SHA-256 checksums and Runtime Source Information accompany the downloads.
+[Download V1 for Windows x64](https://github.com/Thanun-Coding/Youtube-Studio---Release/releases/tag/v1.0.0): choose **Setup** for installation or **Portable** to run without installation. Package version: **1.0.0**. See [V1 release notes](RELEASE_NOTES_V1.md) for the latest improvements, verification and remaining limits. SHA-256 checksums and Runtime Source Information accompany the downloads.
 
 The Windows executables are **unsigned**, by the owner's decision. Windows may show an unknown-publisher warning. The app supports public content only; it does not request YouTube login or cookies. Source availability, offered qualities, and captions can change. Complete linked-dependency source/reproducibility review and physical failure testing remain incomplete; the supplied source-information archive does not certify those checks.
 
-## New in 1.1.0
+## Refreshed official V1
 
-Batch preparation runs in the background so you can keep browsing. A floating card shows progress across pages. Clear all history preserves Library, files and unfinished work. Controls and scrollbars follow the app theme.
+The new update popup shows verified release details, live progress, cancellation/retry and readiness to install. Closing it preserves the download; automatic offers wait for fullscreen playback to finish. Background batch preparation, floating progress, data-preserving history clearing and themed controls remain included.
+
+This release replaces the earlier V1 and 1.1.0 downloads. Existing users should install this replacement manually: automatic updates offer only numerically newer versions.
 
 ## Updates
 

@@ -1,28 +1,28 @@
 # Youtube Studio · V1 — Official Build
 
-V1 includes the latest approved interface, download, conversion, Library, playback and recovery improvements.
+This refreshed official Windows x64 release is version **1.0.0** and includes the automatic-update popup and all existing download, Library, playback, conversion and background-work features.
 
-- Clearer channel cards with supported public banners, overlapping profile pictures, subscriber information and accessible expanded details.
-- A collection download toolbar aligned to the content area, with wrapping controls and space reserved below the final cards.
-- Improved Quality selection, Settings layout, collection List view and brief notifications.
-- Public preview fixes and simpler refresh/fullscreen controls.
-- Video output choices including MP4, MOV, MKV and WebM; audio choices including MP3, M4A, WAV, FLAC and OGG. Conversion keeps the original media.
-- Bounded history rendering, direct Library lookup, reliable playback persistence, duplicate inspection and recovery improvements.
-- About now shows **V1** / **Official Build** with Thanun's social links.
-- A refreshed branded English installer with directory choice, shortcuts and data-preserving uninstall.
+## What's new
 
-## Downloads
+- A compact update popup consistent with Settings, with verified release metadata, version/channel/size/date details and real release notes when supplied.
+- Live update download percentage, downloaded bytes, measured speed and estimated remaining time.
+- Closing and reopening the popup preserves the active download. Settings stays synchronized with the same updater.
+- Explicit update cancellation and retry, guarded installer opening, and a clear ready-to-install state.
+- Keyboard focus management, responsive scrolling, reduced-motion support and automatic update offers that wait until playback fullscreen exits.
+- Background batch preparation and floating download progress remain available. History clearing preserves Library files and unfinished work.
 
-Choose **Setup** for normal installation or **Portable** to run without installation. Both are Windows x64 builds, version **1.0.0**. Close the running app before replacing an older build. Saved media is not deleted by installation or uninstall.
+## Downloads and replacement
 
-The Windows executables are **unsigned**. Windows may display an unknown-publisher notice. `SHA256SUMS.txt` identifies the exact release files. Installed builds verify signed update metadata and installer hashes before offering the verified installer; portable updates use manual replacement.
+Choose **Setup** for normal installation or **Portable** to run without installation. Both files are Windows x64, version **1.0.0**. This release replaces the earlier GitHub V1 and 1.1.0 releases.
+
+If you already have an earlier **1.0.0** or **1.1.0** build, close the app and install this replacement manually. The updater intentionally offers only numerically newer versions, so it will not automatically replace the same version or downgrade 1.1.0. Saved media and application data are preserved by the installer.
+
+For future updates, installed builds check the existing signed stable feed. **Verified** refers to the release metadata signature; installer bytes are separately checked against SHA-256 before readiness and before opening. Applying an update retains the Windows installer confirmation: the app closes, you complete installation in Windows, then launch the app again. Portable builds use manual replacement.
 
 ## Verification and limits
 
-Build, 214 unit tests, focused source/package desktop regressions, portable startup and isolated install/launch/uninstall checks passed. The latest channel-card/toolbar checks pass in the V1 package. A local signed HTTPS fixture verifies update trust, download and restart integrity; V1 establishes the production feed baseline, so an actual two-version production update has not yet been exercised.
+The full 254-test unit suite, renderer build and pinned-runtime integrity checks pass. The fresh package passes update-popup interaction tests and version identity checks. SHA-256 checksums accompany all release downloads.
 
-Native installer welcome text and installation behavior were verified. Installer artwork was inspected separately; hidden-window capture could not verify the painted wizard. Physical DPI, assistive-technology and disk-full/power-loss testing remain unverified.
+Windows executables remain unsigned. Public source availability, formats and captions can change. The app supports public content only and does not request login or cookies. Physical DPI, assistive-technology and a real native downgrade/upgrade remain unverified for this replacement. No installation was performed on the owner's data during release testing.
 
-The Runtime Source Information archive supplies the pinned FFmpeg source, upstream build scripts, configuration/licenses and dependency-revision inventory. Complete linked/transitive dependency source assembly and reproducibility review remain incomplete; this archive is not a complete reviewed corresponding-source package or certification.
-
-Public source availability, formats and captions can change. The app uses public content only and does not request login or cookies.
+The Runtime Source Information archive is unchanged: it provides the pinned FFmpeg source, build scripts, configuration/licenses and dependency-revision inventory. Complete linked/transitive dependency source assembly and reproducibility review remain incomplete.
